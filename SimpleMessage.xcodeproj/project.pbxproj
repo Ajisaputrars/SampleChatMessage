@@ -3,29 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD74A1A9D2B64D0E22CDF615 /* Pods_SimpleMessage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ECC749B81983D4CF3C8E77C /* Pods_SimpleMessage.framework */; };
+		D762B5C0253DD7AD0075098D /* ChatMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D762B5BF253DD7AD0075098D /* ChatMessageTableViewCell.swift */; };
 		D7F34043253D88FD00A370C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F34042253D88FD00A370C9 /* AppDelegate.swift */; };
 		D7F34045253D88FD00A370C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F34044253D88FD00A370C9 /* SceneDelegate.swift */; };
-		D7F34047253D88FD00A370C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F34046253D88FD00A370C9 /* ViewController.swift */; };
-		D7F3404A253D88FD00A370C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F34048253D88FD00A370C9 /* Main.storyboard */; };
+		D7F34047253D88FD00A370C9 /* ChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F34046253D88FD00A370C9 /* ChatController.swift */; };
 		D7F3404D253D88FD00A370C9 /* SimpleMessage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7F3404B253D88FD00A370C9 /* SimpleMessage.xcdatamodeld */; };
 		D7F3404F253D88FF00A370C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7F3404E253D88FF00A370C9 /* Assets.xcassets */; };
 		D7F34052253D88FF00A370C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F34050253D88FF00A370C9 /* LaunchScreen.storyboard */; };
+		D7F34061253D89D400A370C9 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F34060253D89D400A370C9 /* ChatView.swift */; };
+		D7F3406A253DCE6B00A370C9 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F34069253DCE6B00A370C9 /* ChatMessage.swift */; };
+		D7F3406D253DCEFE00A370C9 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F3406C253DCEFE00A370C9 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5ECC749B81983D4CF3C8E77C /* Pods_SimpleMessage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleMessage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		694DA0B510B0E95BDB3F00CA /* Pods-SimpleMessage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleMessage.debug.xcconfig"; path = "Target Support Files/Pods-SimpleMessage/Pods-SimpleMessage.debug.xcconfig"; sourceTree = "<group>"; };
+		CF1E795149987DF0C2F100A2 /* Pods-SimpleMessage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleMessage.release.xcconfig"; path = "Target Support Files/Pods-SimpleMessage/Pods-SimpleMessage.release.xcconfig"; sourceTree = "<group>"; };
+		D762B5BF253DD7AD0075098D /* ChatMessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageTableViewCell.swift; sourceTree = "<group>"; };
 		D7F3403F253D88FD00A370C9 /* SimpleMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F34042253D88FD00A370C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7F34044253D88FD00A370C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D7F34046253D88FD00A370C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D7F34049253D88FD00A370C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7F34046253D88FD00A370C9 /* ChatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatController.swift; sourceTree = "<group>"; };
 		D7F3404C253D88FD00A370C9 /* SimpleMessage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleMessage.xcdatamodel; sourceTree = "<group>"; };
 		D7F3404E253D88FF00A370C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7F34051253D88FF00A370C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7F34053253D88FF00A370C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7F34060253D89D400A370C9 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		D7F34069253DCE6B00A370C9 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		D7F3406C253DCEFE00A370C9 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD74A1A9D2B64D0E22CDF615 /* Pods_SimpleMessage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3381204C523208A60989C8F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				694DA0B510B0E95BDB3F00CA /* Pods-SimpleMessage.debug.xcconfig */,
+				CF1E795149987DF0C2F100A2 /* Pods-SimpleMessage.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D10E684B9145160BC6A799A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5ECC749B81983D4CF3C8E77C /* Pods_SimpleMessage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D7F34036253D88FD00A370C9 = {
 			isa = PBXGroup;
 			children = (
 				D7F34041253D88FD00A370C9 /* SimpleMessage */,
 				D7F34040253D88FD00A370C9 /* Products */,
+				3381204C523208A60989C8F4 /* Pods */,
+				D10E684B9145160BC6A799A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,14 +90,41 @@
 			children = (
 				D7F34042253D88FD00A370C9 /* AppDelegate.swift */,
 				D7F34044253D88FD00A370C9 /* SceneDelegate.swift */,
-				D7F34046253D88FD00A370C9 /* ViewController.swift */,
-				D7F34048253D88FD00A370C9 /* Main.storyboard */,
+				D7F34067253DCE4000A370C9 /* Model */,
+				D7F34066253DCE3C00A370C9 /* View */,
+				D7F34065253DCE3400A370C9 /* Controller */,
 				D7F3404E253D88FF00A370C9 /* Assets.xcassets */,
 				D7F34050253D88FF00A370C9 /* LaunchScreen.storyboard */,
 				D7F34053253D88FF00A370C9 /* Info.plist */,
 				D7F3404B253D88FD00A370C9 /* SimpleMessage.xcdatamodeld */,
+				D7F3406C253DCEFE00A370C9 /* Utils.swift */,
 			);
 			path = SimpleMessage;
+			sourceTree = "<group>";
+		};
+		D7F34065253DCE3400A370C9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D7F34046253D88FD00A370C9 /* ChatController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D7F34066253DCE3C00A370C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D7F34060253D89D400A370C9 /* ChatView.swift */,
+				D762B5BF253DD7AD0075098D /* ChatMessageTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D7F34067253DCE4000A370C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D7F34069253DCE6B00A370C9 /* ChatMessage.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7F34056253D88FF00A370C9 /* Build configuration list for PBXNativeTarget "SimpleMessage" */;
 			buildPhases = (
+				3CE1ED539EF51C186C17BDA0 /* [CP] Check Pods Manifest.lock */,
 				D7F3403B253D88FD00A370C9 /* Sources */,
 				D7F3403C253D88FD00A370C9 /* Frameworks */,
 				D7F3403D253D88FD00A370C9 /* Resources */,
+				A597543A613F96454A921C61 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,19 +188,64 @@
 			files = (
 				D7F34052253D88FF00A370C9 /* LaunchScreen.storyboard in Resources */,
 				D7F3404F253D88FF00A370C9 /* Assets.xcassets in Resources */,
-				D7F3404A253D88FD00A370C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CE1ED539EF51C186C17BDA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleMessage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A597543A613F96454A921C61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimpleMessage/Pods-SimpleMessage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimpleMessage/Pods-SimpleMessage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimpleMessage/Pods-SimpleMessage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D7F3403B253D88FD00A370C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7F34047253D88FD00A370C9 /* ViewController.swift in Sources */,
+				D7F34047253D88FD00A370C9 /* ChatController.swift in Sources */,
+				D762B5C0253DD7AD0075098D /* ChatMessageTableViewCell.swift in Sources */,
 				D7F3404D253D88FD00A370C9 /* SimpleMessage.xcdatamodeld in Sources */,
+				D7F34061253D89D400A370C9 /* ChatView.swift in Sources */,
+				D7F3406D253DCEFE00A370C9 /* Utils.swift in Sources */,
+				D7F3406A253DCE6B00A370C9 /* ChatMessage.swift in Sources */,
 				D7F34043253D88FD00A370C9 /* AppDelegate.swift in Sources */,
 				D7F34045253D88FD00A370C9 /* SceneDelegate.swift in Sources */,
 			);
@@ -150,14 +254,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D7F34048253D88FD00A370C9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D7F34049253D88FD00A370C9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D7F34050253D88FF00A370C9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,6 +383,7 @@
 		};
 		D7F34057253D88FF00A370C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 694DA0B510B0E95BDB3F00CA /* Pods-SimpleMessage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -306,6 +403,7 @@
 		};
 		D7F34058253D88FF00A370C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF1E795149987DF0C2F100A2 /* Pods-SimpleMessage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
